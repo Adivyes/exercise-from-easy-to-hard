@@ -408,17 +408,108 @@
     //     ticTacToe.play(0,1);
     //   ====================================  
    
-    let moveCounter = 500;
-    function getSmaller(){
-        moveCounter--;
-        square.style.width = moveCounter + 'px';
-        square.style.height = moveCounter + 'px';
-    if(moveCounter == 50 ){
-        clearInterval(setintervalTimer)
-    }
-    }
-    let setintervalTimer = setInterval(getSmaller,50);
+    // let moveCounter = 500;
+    // function getSmaller(){
+    //     moveCounter--;
+    //     square.style.width = moveCounter + 'px';
+    //     square.style.height = moveCounter + 'px';
+    // if(moveCounter == 50 ){
+    //     clearInterval(setintervalTimer)
+    // }
+    // }
+    // let setintervalTimer = setInterval(getSmaller,50);
 
-    function squareStopBtn(){
-        clearInterval(setintervalTimer)
-    }
+    // function squareStopBtn(){
+    //     clearInterval(setintervalTimer)
+    // }
+// ===================================================
+// function multiAndSum(num){
+//     let sumUp = 0;
+// for (let i = 3; i < num; i++) {
+    
+//     if(i%3 === 0 || i%5 === 0){
+//         sumUp += i
+//         console.log(i);
+//     }
+    
+// }
+// console.log(sumUp)
+// return sumUp
+// }
+// multiAndSum(10)
+    // ======================================================
+
+
+    // let string = "how can mirrors be real if our eyes aren't real";
+    // let arr = string.split(" ");
+    // console.log(arr);
+    // function capitaliz(str){
+
+    //     let transfered = "";
+    //     str.forEach(element => {
+            
+    //         transfered += element[0].toUpperCase()+element.slice(1) + " "
+    //     });
+    //     console.log(transfered)
+    // }
+    // capitaliz(arr)
+//   ===============================================
+
+// let password = "1dfhbsgdfh453763657234sdgsfdgsfdhbsfd56789"
+
+
+
+
+// function mascking(str){
+//     let sliceFour = str.slice(-4) 
+//    let redyPass = "";
+// for (let i = 4; i < str.length; i++) {
+//     redyPass += "#"
+    
+// }
+
+//   return   redyPass + sliceFour
+
+// }
+// console.log(mascking(password));
+// ==============================================
+
+// let alphabetPosition = "The sunset sets at twelve o' clock"
+// let alfaBat = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+
+// function returnNumToAlfa(string){
+//     string = string.toLowerCase()
+//  let emptyLior = "";
+//     for (let i = 0; i < string.length; i++) {
+         
+//        if(alfaBat.indexOf(string[i]) !== -1){
+//         emptyLior += alfaBat.indexOf(string[i])+1 + " "
+//        }
+//     }
+//     return emptyLior.slice(0,-1);
+// }
+// console.log(returnNumToAlfa(alphabetPosition));
+// ===================================================
+
+// let string = "This website is for losers LOL!"
+// // let bill = string.toLowerCase()
+// // console.log(bill);
+// function stringDelite(str) {
+//     let newString = "";
+//     for (let i = 0; i < str.length; i++) {
+        
+//         if (str[i] === "e" || str[i] === "i" || str[i] === "o"|| str[i] === "O") {
+            
+//             continue
+//         }
+        
+//         else{
+//             newString += str[i]
+//         }
+        
+//     }
+//     return newString;
+// }
+// stringDelite(string)
+// ================================================
+
