@@ -513,3 +513,21 @@
 // stringDelite(string)
 // ================================================
 
+// let numArray = [1,2,3,"a","b","c",4];
+
+// function filterList(l){
+// let newArry = [];
+
+// for (let i = 0; i < l.length; i++) {
+   
+//     if(l[i]/1 === l[i]){
+//         newArry.push(l[i])
+//     }
+// }
+
+// return newArry;
+// }
+// filterList(numArray)
+
+// ==================================================
+
