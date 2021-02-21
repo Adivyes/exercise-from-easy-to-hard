@@ -531,3 +531,86 @@
 
 // ==================================================
 
+// let numArry = [[18, 20],[45, 2],[61, 12],[37, 6],[21, 21],[78, 9]]
+// let numArry =[[3, 12],[55,1],[91, -2],[54, 23]]
+
+// data.forEach(array => {
+//     (array[0] >= 55 && array[1] > 7)?console.log('Senior'):console.log('Open')})
+
+// function openOrSenior(data){
+//  let newArray = []
+ 
+// for (let i = 0; i < data.length; i++) {
+    
+//     if(data[i].shift() >= 55 && data[i].pop() > 7 ){
+        
+//         newArray.push("Senior")  
+//     }
+    
+//     else{
+//         newArray.push("Open")  
+//     }
+// }
+
+// console.log(newArray);
+//     return newArray;
+//   }
+//   openOrSenior(numArry)
+// ==================================================
+
+// let array1 = ["d","l","r","o","w"]
+// function revers(param){
+    
+//     for (let i = param.length - 1;  i >=0;  i--) {
+        
+//         console.log(param[i]);
+        
+//     }
+// }
+// revers(array1)
+// ==================================================
+
+// let numA = 1
+// let numB = 2
+// function bigger(num1,num2){
+// if(num1 > num2){
+//     console.log(num1);
+// }
+// else{
+//     console.log(num2);
+// }
+// }
+// bigger(numA,numB)
+// ====================================================
+// const fs = require('fs')
+// const student = {studentName:"david",grade:"first",scoure:100}
+
+// fs.writeFile('./students.text',JSON.stringify(student),(err)=>{
+//     if(err){console.error("not good",err);}
+//     console.log('very good');
+// })
+// =======================================================
+const fs = require('fs')
+let winingNum = [];
+let secondTry = ""
+function randomNum() {
+    for (let i = 0; i < 10; i++) {
+       let ranNum = Math.floor((Math.random() * 10) + 1);
+       winingNum.push(ranNum)
+       secondTry += `${ranNum},`
+    }
+    secondTry +=0
+    console.log(winingNum);
+    console.log(secondTry);
+    fs.writeFile('./winningNumbers2.text',secondTry,(err) =>{
+if(err) throw err;
+console.log("success");
+    })
+    return winingNum
+}
+randomNum()
+
+// fs.writeFile('./winningNumbers.text',JSON.stringify(winingNum),(err)=>{
+//     if(err){console.error("not good",err);}
+//     console.log('very good');
+// })

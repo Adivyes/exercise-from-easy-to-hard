@@ -1,0 +1,23 @@
+{
+  "name": "exercise-from-easy-to-hard",
+  "version": "1.0.0",
+  "description": "node.js first app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adivyes/exercise-from-easy-to-hard.git"
+  },
+  "author": "Adiv Shenkor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adivyes/exercise-from-easy-to-hard/issues"
+  },
+  "homepage": "https://github.com/Adivyes/exercise-from-easy-to-hard#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "lodash": "^4.17.20"
+  }
+}
